@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+}
+
+.new{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    top: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4em;
+    animation-name: slideLeft;
+    animation-duration: 10s;
+    margin: 10px;
+}
+.new1{
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4em;
+    animation-name: slideLeft;
+    animation-duration: 10s;
+    margin: 10px;
+}
+
+@keyframes slideLeft{
+    from{transform: translate(500px)}
+}
